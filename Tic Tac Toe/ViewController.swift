@@ -22,8 +22,6 @@ class ViewController: UIViewController {
 			won(who: (box[3].currentTitle))
 		} else if box[6].currentTitle == box[7].currentTitle && box[7].currentTitle == box[8].currentTitle && box[6].currentTitle == box[8].currentTitle {
 			won(who: (box[6].currentTitle))
-		} else if box[3].currentTitle == box[4].currentTitle && box[4].currentTitle == box[5].currentTitle && box[3].currentTitle == box[5].currentTitle {
-			won(who: (box[3].currentTitle))
 		} else if box[0].currentTitle == box[4].currentTitle && box[4].currentTitle == box[8].currentTitle && box[0].currentTitle == box[8].currentTitle {
 			won(who: (box[0].currentTitle))
 		} else if box[2].currentTitle == box[4].currentTitle && box[4].currentTitle == box[6].currentTitle && box[2].currentTitle == box[6].currentTitle {
@@ -33,7 +31,7 @@ class ViewController: UIViewController {
 		} else if box[1].currentTitle == box[4].currentTitle && box[4].currentTitle == box[7].currentTitle && box[1].currentTitle == box[7].currentTitle {
 			won(who: (box[1].currentTitle))
 		} else if box[2].currentTitle == box[5].currentTitle && box[8].currentTitle == box[5].currentTitle && box[2].currentTitle == box[8].currentTitle {
-			won(who: (box[0].currentTitle))
+			won(who: (box[2].currentTitle))
 		}
 	}
 	
